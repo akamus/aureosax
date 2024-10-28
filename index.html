@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Músico para Casamentos</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom CSS */
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+
+        .hero {
+            background-image: url('https://example.com/casamento.jpg'); /* Substituir pelo URL da imagem */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            margin-top: 1rem;
+        }
+
+        .services {
+            padding: 50px 0;
+        }
+
+        .service-card {
+            margin-bottom: 30px;
+        }
+
+        .testimonials {
+            background-color: #f8f9fa;
+            padding: 50px 0;
+        }
+
+        .testimonial-card {
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .contact {
+            padding: 50px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero d-flex flex-column justify-content-center align-items-center">
+        <h1>Música para Casamentos Inesquecíveis</h1>
+        <p>Crie o clima perfeito para o seu grande dia com uma trilha sonora personalizada.</p>
+        <a href="#contact" class="btn btn-primary btn-lg mt-4">Entre em Contato</a>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services container text-center">
+        <h2 class="mb-5">Serviços Oferecidos</h2>
+        <div class="row">
+            <div class="col-md-4 service-card">
+                <div class="card h-100">
+                    <img src="https://example.com/cerimonia.jpg" class="card-img-top" alt="Cerimônia">
+                    <div class="card-body">
+                        <h5 class="card-title">Cerimônia</h5>
+                        <p class="card-text">Música clássica e romântica para momentos emocionantes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 service-card">
+                <div class="card h-100">
+                    <img src="https://example.com/coquetel.jpg" class="card-img-top" alt="Coquetel">
+                    <div class="card-body">
+                        <h5 class="card-title">Coquetel</h5>
+                        <p class="card-text">Ambiente suave com jazz e bossa nova durante a recepção.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 service-card">
+                <div class="card h-100">
+                    <img src="https://example.com/festa.jpg" class="card-img-top" alt="Festa">
+                    <div class="card-body">
+                        <h5 class="card-title">Festa</h5>
+                        <p class="card-text">Música ao vivo para animar a pista de dança e tornar a festa inesquecível.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials text-center">
+        <div class="container">
+            <h2 class="mb-5">Depoimentos</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="testimonial-card p-4">
+                        <p>"A música foi perfeita, capturou todos os momentos do nosso casamento com maestria!"</p>
+                        <h5>- Ana e João</h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card p-4">
+                        <p>"Simplesmente maravilhoso! Nossos convidados elogiaram o músico durante toda a festa."</p>
+                        <h5>- Carla e Pedro</h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card p-4">
+                        <p>"A música ao vivo elevou a energia da nossa festa. Foi inesquecível!"</p>
+                        <h5>- Marcos e Luiza</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact container text-center">
+        <h2 class="mb-5">Entre em Contato</h2>
+        <form>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <input type="text" class="form-control" placeholder="Seu Nome" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <input type="email" class="form-control" placeholder="Seu E-mail" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 mb-3">
+                    <textarea class="form-control" rows="5" placeholder="Sua Mensagem" required></textarea>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center p-4">
+        <p>&copy; 2024 Músico para Casamentos | Todos os direitos reservados</p>
+    </footer>
+
+    <!-- Bootstrap 5 JS (Opcional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
